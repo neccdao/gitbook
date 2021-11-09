@@ -1,58 +1,25 @@
 ---
-description: Yield and governance token
+description: NECC Yield and governance token
 ---
 
-# Necc
+# Vesting
 
-By supplying collateral to the protocol to be borrowed for leveraged positions, Necc is distributed in return according to the collateral demand and liquidity weights.
+By supplying collateral to the protocol to be borrowed for leveraged positions, NECC is redistributed in return.
 
-Necc can be redeemed for a portion of the basket of collaterals that are accumulated as fees for using the Necc protocol as described in [Fees](fees.md).
+NECC is vested over five days at a discount by selling NAKA or NAKA/NECC LP principal to the protocol treasury.
 
-Necc could also be swapped on a secondary market like an AMM that should target the total underlying collateral basket price.
+NECC could also be swapped on a secondary market like an AMM that should trade above underlying collateral basket price inside the treasury.
 
-**Distributing Necc:**&#x20;
+As the treasury owns more principal overtime, NAKA and NECC pricing stabilises providing the protocol sustained revenue and risk free asset allocation for roadmap development.
 
-Total supplied collateral in USD = $10M&#x20;
+Given a decentralised and stable price, NECC itself can be utilised in permissionless & partnership markets as well as treasury sharing to survive multiple bear markets.
 
-\- ETH - 10% ($1M)
+\---
 
-\- MKR - 20% ($2M)&#x20;
+1% of vested NECC is redistributed to interest bearing stablecoin stakers for sustained APY.
 
-\- LINK - 70% ($7M)
+NECC DAO funds can also be used for roadmap implementation and LP fee earning and aiding NAKA weighting.
 
-**TBD weighted distribution**
 
-`(Percentage of user nUSD minted for supplied collateral type * Weighted percentage of supplied collateral of total) * Percentage of Necc block emissions/rewards`
 
-User puts in $10k USD worth of LINK, gets 10k Necc
-
-User puts in $10k USD worth of ETH, gets 30k Necc
-
-**Redeeming Necc:**&#x20;
-
-Total rewards pool:&#x20;
-
-\- $1M ETH&#x20;
-
-\- $1M LINK&#x20;
-
-\- $1M MKR&#x20;
-
-User redeems 10k Necc (10% of total), receives $300k total (10% of USD value).
-
-**Decisions to make**&#x20;
-
-\- What are the collateral weights? FTX?&#x20;
-
-\- How much more should you get for choosing the small collateral vs. the large&#x20;
-
-\- How many tokens do you get per USD of collateral?&#x20;
-
-%age share of total collateral supplied in USD?
-
-* Funding rates affecting the Necc distribution?
-
-\- How do we incentivise longs/shorts?&#x20;
-
-* Should governance be another token given in return for staking Necc?
-* Do we want another token index weighted farming Necc or a zap vault?&#x20;
+****

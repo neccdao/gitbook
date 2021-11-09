@@ -4,7 +4,7 @@ description: Information on when you need to deposit another 1000 USD
 
 # Liquidations
 
-The max leverage is essentially the margin collateral ratio which in other terms means the minimum amount of collateral (percentage) the user has to supply to the Necc protocol to borrow another collateral type up to a certain maximum.
+The max leverage is essentially the margin collateral ratio which in other terms means the minimum amount of collateral (percentage) the user has to supply to the protocol to borrow another collateral type up to a certain maximum.
 
 ```
 If the margin collateral ratio is 5%, 
@@ -15,7 +15,24 @@ Or 100/5 = 20x.
 
 \---
 
-Below is an illustration of how the Necc protocol can be used to allow a free market for inverse leverage longs liquidations:
+Partial liquidations are implemented as a primary priority to maintain protocol trader lifetime by reducing position size to its half life at the index price whilst maintaining an open position.
+
+Below is the pseudo code to demonstrate this:
+
+```
+        if (!hasProfit) {
+            remainingCollateral = position.collateral.sub(delta);
+        }
+        
+        if (remainingCollateral.mul(MAX_LEVERAGE) <
+        position.size.mul(BASIS_POINTS_DIVISOR)) {
+            position.size.mul(5).div(10); // divide by 2
+        }
+```
+
+\---
+
+Below is an illustration of how the Necc protocol can be used to allow a free market for inverse leverage longs _full_ liquidation:
 
 1. The price of ETH is 1000 USD
 2. The governed maximum leverage in the system is 2x which means the minimum collateral ratio is 50%
@@ -33,6 +50,6 @@ Below is an illustration of how the Necc protocol can be used to allow a free ma
 Necc protocol prevents cascades of liquidations/flash crashes systematically via the following with each synchronous liquidation call:&#x20;
 
 * Funding rates are paid out for that volatile token and updated
-* Reserved and guaranteed collateral amounts are updated for future nUSD redemptions
+* Reserved and guaranteed collateral amounts are updated for future NAKA redemptions
 * The mark price of the liquidated collateral is either the min price for longs or the max price for shorts from the chainlink price feed&#x20;
 * Validations are made to revert transactions if losses, margin or liquidation fees exceed position collateral and max leverage is surpassed

@@ -1,16 +1,14 @@
 ---
-description: Necc yield tokens are governance tokens too!
+description: NECC yield tokens are governance tokens too!
 ---
 
 # Governance
 
-Necc can be used to vote as well as being a productive fee/basket collateral backed token.
+NECC can be used to vote as well as being a productive fee/basket collateral backed token.
 
-Necc** **allows the following parameters within the protocol to be governed:
+NECC** **allows the following parameters within the protocol to be governed:
 
 * Maximum Leverage
-* Maximum nUSD mint caps per collateral
-* Withdrawal fees
 * Swap fees
 * Stables swap fees
 * Borrowing/Margin fees
@@ -30,5 +28,5 @@ Necc** **allows the following parameters within the protocol to be governed:
 Non-governed variants of Necc protocol could be deployed resulting in:
 
 * Fixed fee parameters or set by the team up to a fixed reasonable maximum
-* Deploy variants of the same system but with different basket of collaterals thus leading to multiple stablecoins and yield tokens (think AltPerp, ShitPerp indexes from FTX)
+* Deploy variants of the same system but with different basket of collaterals thus leading to variant flavoured stablecoins (think AltPerp, ShitPerp indexes from FTX)
 

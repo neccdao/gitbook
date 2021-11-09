@@ -2,29 +2,24 @@
 description: Interest bearing stablecoin
 ---
 
-# nUSD
+# Minting Stablecoin
 
 It is also an index weighting for the underlying basket of collateral.
 
-The point of nUSD is to keep track of supplied liquidity for counter party inverse longs.
+NAKA keeps track of supplied liquidity for counter party inverse longs and shorts.
 
-nUSD is minted at a rate of 1:1 when white listed collateral is supplied to the Necc protocol for borrowing. The supplied collateral price is sourced from its Chainlink price feed.
+NAKA is minted at a rate of 1:1 when whitelisted collateral is supplied to the protocol for borrowing. The supplied collateral price is sourced from its Chainlink price feed.
 
 Each collateral type also has its isolated own redemption rate.
 
-Meaning the amount of nUSD minted affects the amount of collateral type that can be returned upon redeeming the nUSD.
+Meaning the amount of NAKA minted affects the amount of collateral type that can be returned upon burning it.
 
-The isolated collateral type redemption rate is based on:
-
-`Governed redemption ratio := 0.9 * Collateral type amount in the system * (Amount of nUSD to redeem / Total nUSD minted)  `\
-`= Amount of collateral returned`
-
-The amount of collateral returned cannot be greater than the amount of nUSD redeemed in USD dollar amounts.
+The amount of collateral returned cannot be greater than the amount of NAKA redeemed in USD dollar amounts.
 
 For this purpose, this cap to reduce the amount of debt in the system against the collateral supplied overtime.
 
-Overall the price for 1 nUSD is:
+Overall the price for 1 NAKA is:
 
-`Total collateral supplied in USD value / Total nUSD minted`
+`Total collateral supplied in USD value / Total NAKA minted`
 
-nUSD can be staked for a portion of the protocol fees distributed in the form of [Necc](necc.md) tokens.
+NAKA can be staked for a portion of the protocol fees distributed in the form of NECC tokens.
