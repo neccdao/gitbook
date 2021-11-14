@@ -10,18 +10,18 @@ Below are illustrations of how the different personas can be winners and losers 
 
 #### Minters
 
-* Risk off stablecoin minters can get a good mint rate by looking at the current weightings backing the NAKA stablecoin, they can attain <= 0.3% mint fee based on the collateral they mint with. In return for the lower mint rate, they help rebalance the multiple collateral redemption ratios to aid stablecoin pricing.
-* Compared to other protocols, NAKA is an interest bearing stablecoin with deep redemption liquidity. Liquidity becomes sticky via weighted mint fees and staking the stablecoin for NECC yield tokens as 1% of vested NECC is available to claim by NAKA stakers.
-* NAKA and NAKA/NECC LP can be used as principal for vested NECC which in turn can be staked for a higher NECC APY. Instead of potentially causing an imbalance in the collateral pools that back NAKA by burning it, NAKA can be sold to the Treasury to lock liquidity in for borrowers.
-* Stablecoin minters can redeem/burn NAKA at a fixed rate of 0.3% burn fees with zero price slippage. This shifts debt between the collateral pools.
-* Traders reserve a portion of the inverse pool for the duration of their open position so NAKA burners may not redeem as much collateral as they would like based on liquidity pool depth.
-* NAKA burners face price risk as collateral may go up in price so they can redeem less.
+* Risk off stablecoin minters can get a good mint rate by looking at the current weightings backing the NDOL stablecoin, they can attain <= 0.3% mint fee based on the collateral they mint with. In return for the lower mint rate, they help rebalance the multiple collateral redemption ratios to aid stablecoin pricing.
+* Compared to other protocols, NDOL is an interest bearing stablecoin with deep redemption liquidity. Liquidity becomes sticky via weighted mint fees and staking the stablecoin for NECC yield tokens as 1% of vested NECC is available to claim by NDOL stakers.
+* NDOL and NDOL/NECC LP can be used as principal for vested NECC which in turn can be staked for a higher NECC APY. Instead of potentially causing an imbalance in the collateral pools that back NAKA by burning it, NAKA can be sold to the Treasury to lock liquidity in for borrowers.
+* Stablecoin minters can redeem/burn NDOL at a fixed rate of 0.3% burn fees with zero price slippage. This shifts debt between the collateral pools.
+* Traders reserve a portion of the inverse pool for the duration of their open position so NDOL burners may not redeem as much collateral as they would like based on liquidity pool depth.
+* NDOL burners face price risk as collateral may go up in price so they can redeem less.
 * Traders can close high utilisation inverse perpetual short positions locking in a chunk of the collateral pool as profit although it is expected more liquidity is returned to the pools as long positions get liquidated if collateral price goes does.
-* NAKA minters take on cash and carry trades in its nature with fee income derived from funding, swap and vesting rates.
+* NDOL minters take on cash and carry trades in its nature with fee income derived from funding, swap and vesting rates.
 
 #### Traders
 
-* Decentralised inverse perpetuals are available based on counterparty liquidity contributed by NAKA stablecoin minters. This means that the open interest is capped by how much liquidity is available per collateral pool.
+* Decentralised inverse perpetuals are available based on counterparty liquidity contributed by NDOL stablecoin minters. This means that the open interest is capped by how much liquidity is available per collateral pool.
 * Debt swaps can be made before opening an inverse perpetual position, this means WBTC collateral can be used to open an ETH long or short for example.
 * Funding rates are essentially borrow rates based on collateral pool utilisation rates rather than longs or shorts paying each other. This is due to pure inverse perpetuals regardless of direction bias and zero slippage or synthetic mark price.&#x20;
 * Chainlink oracles have limited price feeds per blockchain limiting the amount of potential whitelisted collaterals.
@@ -34,9 +34,9 @@ Below are illustrations of how the different personas can be winners and losers 
 #### Degenerates
 
 * Early principal vesters and NECC stakers lock in crucial liquidity for the Necc protocol to grow therefore their APY is higher in return.
-* Degenerates can attain the lowest NECC vesting cost by minting NAKA from the lowest current weighted collateral to get lower minting fees.
+* Degenerates can attain the lowest NECC vesting cost by minting NDOL from the lowest current weighted collateral to get lower minting fees.
 * Degenerates can arbitrage vesting discounts against AMM secondary markets.
-* Degenerates can sell NAKA/NECC LP token for further vested NECC yield tokens in return for increasing protocol owned liquidity.
+* Degenerates can sell NDOL/NECC LP token for further vested NECC yield tokens in return for increasing protocol owned liquidity.
 * Necc protocol yield accrues via trading fees and swap fees within the collateral pools, degenerates get the highest APY as they speculate on future protocol income.
 * Degenerates have governable say in protocol income streams, partnerships, products and newer markets.
 * Degenerates bet on (3,3) and long term price stabilisation.

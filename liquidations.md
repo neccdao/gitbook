@@ -50,6 +50,6 @@ Below is an illustration of how the Necc protocol can be used to allow a free ma
 Necc protocol prevents cascades of liquidations/flash crashes systematically via the following with each synchronous liquidation call:&#x20;
 
 * Funding rates are paid out for that volatile token and updated
-* Reserved and guaranteed collateral amounts are updated for future NAKA redemptions
+* Reserved and guaranteed collateral amounts are updated for future NDOL redemptions
 * The mark price of the liquidated collateral is either the min price for longs or the max price for shorts from the chainlink price feed&#x20;
 * Validations are made to revert transactions if losses, margin or liquidation fees exceed position collateral and max leverage is surpassed

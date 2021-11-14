@@ -6,20 +6,20 @@ description: Interest bearing stablecoin
 
 It is also an index weighting for the underlying basket of collateral.
 
-NAKA keeps track of supplied liquidity for counter party inverse longs and shorts.
+NDOL keeps track of supplied liquidity for counter party inverse longs and shorts.
 
-NAKA is minted at a rate of 1:1 when whitelisted collateral is supplied to the protocol for borrowing. The supplied collateral price is sourced from its Chainlink price feed.
+NDOL is minted at a rate of 1:1 when whitelisted collateral is supplied to the protocol for borrowing. The supplied collateral price is sourced from its Chainlink price feed.
 
 Each collateral type also has its isolated own redemption rate.
 
-Meaning the amount of NAKA minted affects the amount of collateral type that can be returned upon burning it.
+Meaning the amount of NDOL minted affects the amount of collateral type that can be returned upon burning it.
 
-The amount of collateral returned cannot be greater than the amount of NAKA redeemed in USD dollar amounts.
+The amount of collateral returned cannot be greater than the amount of NDOL redeemed in USD dollar amounts.
 
 For this purpose, this cap to reduce the amount of debt in the system against the collateral supplied overtime.
 
-Overall the price for 1 NAKA is:
+Overall the price for 1 NDOL is:
 
-`Total collateral supplied in USD value / Total NAKA minted`
+`Total collateral supplied in USD value / Total NDOL minted`
 
-NAKA can be staked for a portion of the protocol fees distributed in the form of NECC tokens.
+NDOL can be staked for a portion of the protocol fees distributed in the form of NECC tokens.
