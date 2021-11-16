@@ -23,10 +23,3 @@ NECC** **allows the following parameters within the protocol to be governed:
 
 [https://snapshot.org](https://snapshot.org) will be used for voting
 
-\---
-
-Non-governed variants of Necc protocol could be deployed resulting in:
-
-* Fixed fee parameters or set by the team up to a fixed reasonable maximum
-* Deploy variants of the same system but with different basket of collaterals thus leading to variant flavoured stablecoins (think AltPerp, ShitPerp indexes from FTX)
-
