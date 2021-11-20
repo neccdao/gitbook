@@ -1,5 +1,5 @@
 ---
-description: NECC Yield token
+description: NECC Yield and Governance token
 ---
 
 # Bonding
