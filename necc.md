@@ -1,5 +1,5 @@
 ---
-description: NECC Yield and governance token
+description: NECC Yield token
 ---
 
 # Bonding
@@ -20,7 +20,13 @@ Given a decentralised and stable price, NECC itself can be utilised in permissio
 
 NECC DAO funds can also be used for roadmap implementation and LP fee earning and aiding NDOL weighting.
 
-Trading, minting/burning and swap fees are used to mint and vest principal for Necc to sustain APY.
+\---
+
+Trading fees are redistributed weekly by calculating collateral mint amounts and swapping via external AMMs to help rebalance Vault pool ratios.
+
+Basket of trading fees -> AMM swap -> Mint NDOL -> Bond NDOL principal for NECC
+
+\-> Vested NECC redistributed to NDOL and NECC stakers.
 
 
 

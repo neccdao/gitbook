@@ -14,5 +14,5 @@ description: Pragmatic steps so we all don't get rugged :(
 * Stablecoin business development with integrations
   * Curve finance stablecoin swap pool
   * AMM NECC/X LP farming
+* Progressively increasing leverage after stress testing volatile periods and liquidations
 * You, yes you contributing to Necc protocol!
-* Periodically increasing leverage after stress testing volatile periods and liquidations

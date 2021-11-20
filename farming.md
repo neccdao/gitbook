@@ -21,6 +21,3 @@ Alice wants to sell her tokens and get yield until she is ready to risk on again
 * Alice can also gain long or short leverage on any volatile token in the system with 50x leverage or use it somewhere else with integration partners.
 * Alice could also repeat the same process with her other whitelisted volatile tokens!
 
-\---
-
-Meanwhile staking NECC tokens returns nNECC tokens which rebase around  per 1 hour epoch with an initial reward rate of 0.1% backed by NDOL principal minted from whitelisted collaterals.

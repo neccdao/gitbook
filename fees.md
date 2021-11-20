@@ -26,11 +26,3 @@ These fees are redistributed in the form of NECC tokens to:
 * Treasury
 * DAO
 
-\---
-
-Trading fees are redistributed weekly by calculating collateral mint amounts and swapping via external AMMs to help rebalance Vault pool ratios.
-
-Basket of trading fees -> AMM swap -> Mint NDOL -> Bond NDOL principal for NECC
-
-\-> Vested NECC redistributed to NDOL and NECC stakers.
-

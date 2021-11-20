@@ -4,10 +4,13 @@ description: Deployed reference
 
 # Contract addresses
 
-### Exchange Diamond
+### Exchange
 
-### Bond Diamond
+### Staking
 
-### Treasury Diamond
+### Treasury
 
-### Externally owned addresses
+### DAO
+
+### Tokens
+
