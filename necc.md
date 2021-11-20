@@ -2,7 +2,7 @@
 description: NECC Yield and governance token
 ---
 
-# Vesting
+# Bonding
 
 By supplying collateral to the protocol to be borrowed for leveraged positions, NECC is redistributed in return.
 
@@ -19,6 +19,8 @@ Given a decentralised and stable price, NECC itself can be utilised in permissio
 1% of vested NECC is redistributed to interest bearing stablecoin stakers for sustained APY.
 
 NECC DAO funds can also be used for roadmap implementation and LP fee earning and aiding NDOL weighting.
+
+Trading, minting/burning and swap fees are used to mint and vest principal for Necc to sustain APY.
 
 
 
