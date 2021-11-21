@@ -9,6 +9,7 @@
 * [Staking](farming.md)
 * [Rebalance mechanisms](rebalance-mechanisms.md)
 * [Fees](fees.md)
+* [Liquidity Flow diagrams](liquidity-flow-diagrams.md)
 * [Number go up](number-go-up.md)
 * [Number go down](number-go-down.md)
 * [Personas](personas.md)
