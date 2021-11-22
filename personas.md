@@ -12,7 +12,7 @@ Below are illustrations of how the different personas can be winners and losers 
 
 * Risk off stablecoin minters can get a good mint rate by looking at the current weightings backing the NDOL stablecoin, they can attain <= 0.3% mint fee based on the collateral they mint with. In return for the lower mint rate, they help rebalance the multiple collateral redemption ratios to aid stablecoin pricing.
 * Compared to other protocols, NDOL is an interest bearing stablecoin with deep redemption liquidity. Liquidity becomes sticky via weighted mint fees and staking the stablecoin for NECC yield tokens as 1% of vested NECC is available to claim by NDOL stakers.
-* NDOL and NDOL/NECC LP can be used as principal for vested NECC which in turn can be staked for a higher NECC APY. Instead of potentially causing an imbalance in the collateral pools that back NAKA by burning it, NAKA can be sold to the Treasury to lock liquidity in for borrowers.
+* NDOL and NDOL/NECC LP can be used as principal for vested NECC which in turn can be staked for a higher NECC APY. Instead of potentially causing an imbalance in the collateral pools that back NDOL by burning it, NDOL can be sold to the Treasury to lock liquidity in for borrowers.
 * Stablecoin minters can redeem/burn NDOL at a fixed rate of 0.3% burn fees with zero price slippage. This shifts debt between the collateral pools.
 * Traders reserve a portion of the inverse pool for the duration of their open position so NDOL burners may not redeem as much collateral as they would like based on liquidity pool depth.
 * NDOL burners face price risk as collateral may go up in price so they can redeem less.
