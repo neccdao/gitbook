@@ -1,5 +1,5 @@
 ---
-description: Decentralised Interest Bearing Perpetual Swap Protocol
+description: Decentralised Interest Bearing Inverse Perpetual Swap Protocol
 ---
 
 # Overview
