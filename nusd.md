@@ -8,7 +8,7 @@ It is also an index weighting for the underlying basket of collateral.
 
 NDOL keeps track of supplied liquidity for counter party inverse longs and shorts.
 
-NDOL is minted at a rate of 1:1 when whitelisted collateral is supplied to the protocol for borrowing. The supplied collateral price is sourced from its Chainlink price feed.
+NDOL is minted at a rate of 1:1 when whitelisted collateral is supplied to the protocol for borrowing. The supplied collateral price is sourced from its Flux price feed.
 
 Each collateral type also has its isolated own redemption rate.
 
