@@ -22,4 +22,4 @@ Overall the price for 1 NDOL is:
 
 `Total collateral supplied in USD value / Total NDOL minted`
 
-NDOL can be staked for a portion of the protocol fees distributed in the form of NECC tokens.
+NDOL can be staked for a portion of the protocol fees distributed in the form of staked NECC tokens.
