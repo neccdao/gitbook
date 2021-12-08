@@ -24,7 +24,7 @@ Below is an illustration of how the Necc protocol can be used for inverse levera
 7. The system now has 2200 USD worth of ETH
 8. Bob can be paid 200 USD worth of ETH in long profit
 
-In addition to funding rates, NECC yield tokens are** **distributed to Alice for staking her NDOL.
+In addition to funding rates, staked NECC yield tokens are** **distributed to Alice for staking her NDOL.
 
 \---
 
