@@ -12,7 +12,7 @@ Below are illustrations of how the different personas can be winners and losers 
 
 - Risk off stablecoin minters can get a good mint rate by looking at the current weightings backing the NDOL stablecoin, they can attain <= 0.3% mint fee based on the collateral they mint with. In return for the lower mint rate, they help rebalance the multiple collateral redemption ratios to aid stablecoin pricing.
 - Compared to other protocols, NDOL is an interest bearing stablecoin with deep redemption liquidity. Liquidity becomes sticky via weighted mint fees and staking the stablecoin for NECC yield tokens as 1% of vested NECC is available to claim by NDOL stakers.
-- NDOL and NDOL/NECC LP can be used as principal for vested NECC which in turn can be staked for a higher NECC APY. Instead of potentially causing an imbalance in the collateral pools that back NDOL by burning it, NDOL can be sold to the Treasury to lock liquidity in for borrowers.
+- NDOL and NDOL/nNECC LP can be used as principal for vested NECC which in turn can be staked for a higher NECC APY. Instead of potentially causing an imbalance in the collateral pools that back NDOL by burning it, NDOL can be sold to the Treasury to lock liquidity in for borrowers.
 - Stablecoin minters can redeem/burn NDOL at a fixed rate of 0.3% burn fees with zero price slippage. This shifts debt between the collateral pools.
 - Traders reserve a portion of the inverse pool for the duration of their open position so NDOL burners may not redeem as much collateral as they would like based on liquidity pool depth.
 - NDOL burners face price risk as collateral may go up in price so they can redeem less.
@@ -36,7 +36,7 @@ Below are illustrations of how the different personas can be winners and losers 
 - Early principal vesters and NECC stakers lock in crucial liquidity for the Necc protocol to grow therefore their APY is higher in return.
 - Degenerates can attain the lowest NECC vesting cost by minting NDOL from the lowest current weighted collateral to get lower minting fees.
 - Degenerates can arbitrage vesting discounts against AMM secondary markets.
-- Degenerates can sell NDOL/NECC LP token for further vested NECC yield tokens in return for increasing protocol owned liquidity.
+- Degenerates can sell NDOL/nNECC LP token for further vested NECC yield tokens in return for increasing protocol owned liquidity.
 - Necc protocol yield accrues via trading fees and swap fees within the collateral pools, degenerates get the highest APY as they speculate on future protocol income.
 - Degenerates have governable say in protocol income streams, partnerships, products and newer markets.
 - Degenerates bet on (3,3) and long term price stabilisation.
