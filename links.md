@@ -16,11 +16,11 @@ Docs
 Medium Blog
 {% endembed %}
 
-{% embed url="https://discord.necc.io" %}
+{% embed url="https://discord.gg/PwaesU6MVx" %}
 Discord
 {% endembed %}
 
-{% embed url="https://twitter.necc.io" %}
+{% embed url="https://twitter.com/neccdao" %}
 Twitter
 {% endembed %}
 
