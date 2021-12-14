@@ -10,7 +10,7 @@ Necc is a yield-bearing, fully collateralised stablecoin protocol. These propert
 
 NECC can also be vested by selling NDOL or NDOL/nNECC LP tokens to the Treasury.
 
-The stablecoin, NDOL, can be minted by depositing a whitelisted collateral. This stablecoin is minted 1-1 to the collateral's USD value, per its associated Chainlink price feed. NDOL can be burned for any whitelisted collateral type at a rate of `(collateral in pool) / (supply of NDOL).`
+The stablecoin, NDOL, can be minted by depositing a whitelisted collateral. This stablecoin is minted 1-1 to the collateral's USD value, per its associated Flux price feed. NDOL can be burned for any whitelisted collateral type at a rate of `(collateral in pool) / (supply of NDOL).`
 
 Traders looking to open leveraged positions can "borrow", or more accurately, trade against the collateral pool, with up to 50x leverage. A trader can deposit 1 ETH, then borrow 1 more ETH, for a total position size of 2 ETH.
 
