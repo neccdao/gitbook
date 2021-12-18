@@ -18,7 +18,7 @@ Meaning the amount of NDOL minted affects the amount of collateral type that can
 
 The amount of collateral returned cannot be greater than the amount of NDOL redeemed in USD dollar amounts.
 
-For this purpose, this cap is to reduce the amount of debt in the system against the collateral supplied over time.
+For this purpose, there is also a 1 dollar cap is to reduce the amount of debt in the system against the collateral supplied over time.
 
 Overall the price for 1 NDOL is:
 

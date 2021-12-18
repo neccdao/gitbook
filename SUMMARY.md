@@ -1,7 +1,7 @@
 # Table of contents
 
 - [Overview](README.md)
-- [Minting Stablecoin](nusd.md)
+- [Minting Stablecoin](ndol.md)
 - [Inverse Longs and Shorts](inverse-longs.md)
 - [Liquidations](liquidations.md)
 - [Swaps](swaps.md)
