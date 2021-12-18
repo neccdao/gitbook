@@ -12,7 +12,7 @@ Website
 Docs
 {% endembed %}
 
-{% embed url="https://blog.necc.io" %}
+{% embed url="https://neccdao.medium.com" %}
 Medium Blog
 {% endembed %}
 
